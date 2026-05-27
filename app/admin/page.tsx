@@ -28,8 +28,8 @@ export default function AdminPage() {
             timestamp: new Date().toISOString(),
             data: data
           }]);
-        } catch (error) {
-          console.error('Error parsing JSON:', error);
+        } catch (err) {
+          console.error('Error parsing JSON:', err);
         }
       };
       reader.readAsText(file);
