@@ -25,7 +25,7 @@ export default function AdminPage() {
         try {
           const data = JSON.parse(e.target?.result as string);
           setResponses([{
-            timestamp: new Date().toISOString(),
+            timestamp: new Date().toISOString(), 
             data: data
           }]);
         } catch (err) {
