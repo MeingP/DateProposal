@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Date Proposal App",
-  description: "A magical way to ask that special someone on a date!",
+  title: "Date With Lani",
+  description: "Hopefully many more to come :)",
 };
 
 export default function RootLayout({
