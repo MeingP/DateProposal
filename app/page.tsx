@@ -277,7 +277,7 @@ export default function EnchantingDateProposalApp() {
           "Walk At The Park Or Beach",
           "Pottery Class",
           "Explore Downtown Together",
-          "Mueseum",
+          "Museum",
           "Mini Golf",
           "Painting And Movie Night",
           "See How High I Can Count Without Using My Fingers",
