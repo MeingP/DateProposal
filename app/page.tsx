@@ -96,7 +96,7 @@ export default function EnchantingDateProposalApp() {
     
     <motion.div key="step0" className="text-center" {...fadeInUp}>
       <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-500">
-        Will you go on a date with me, Lani?
+        Will you go on a date with me, Selena?
       </h1>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -239,7 +239,7 @@ export default function EnchantingDateProposalApp() {
         {[
           { name: "Vietnamese", icon: <Utensils className="w-6 h-6" /> },
           { name: "Sushi", icon: <Utensils className="w-6 h-6" /> },
-          { name: "Whatever Lani's Heart Desires :)", icon: <Utensils className="w-6 h-6" /> },
+          { name: "Whatever Selena's Heart Desires :)", icon: <Utensils className="w-6 h-6" /> },
           { name: "Let's Pick Up Stuff Together", icon: <Coffee className="w-6 h-6" /> },
           { name: "Mac n Cheese + Ketchup", icon: <Utensils className="w-6 h-6" /> },
         ].map(({ name, icon }) => (
